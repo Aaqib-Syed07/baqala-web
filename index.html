@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baqala - One-Stop Supermarket for Groceries & Homeneeds</title>
+    <meta name="description"
+        content="Discover grocery essentials, dairy, bakery, and household homeneeds at Baqala Supermarket. Premium walk-in aisles, wholesale rates, and direct WhatsApp support.">
+
+    <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="assets/logo_icon.jpg">
+</head>
+
+<body>
+
+    <!-- Ambient Glass Atmosphere Orbs -->
+    <div class="ambient-glow-canvas" aria-hidden="true">
+        <div class="ambient-orb orb-emerald"></div>
+        <div class="ambient-orb orb-mint"></div>
+        <div class="ambient-orb orb-amber"></div>
+    </div>
+
+    <!-- Announcement Bar -->
+    <aside class="announcement-bar">
+        <div class="announcement-container">
+            <span class="live-pill"><span class="pulse-dot"></span> OPEN TODAY</span>
+            <p>Your neighborhood grocery & homeneeds superstore &bull; Daily <strong>7:00 AM &ndash; 11:00 PM</strong>
+            </p>
+            <a href="https://wa.me/919999999999?text=Hello%20Baqala!%20What%20are%20your%20current%20deals%3F"
+                target="_blank" class="announcement-link">
+                Ask Availability <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </aside>
+
+    <!-- Navigation Header (Floating Glass Island) -->
+    <header class="header-outer" id="mainHeader">
+        <div class="header-container glass-island">
+            <a href="#" class="logo-link" id="logoLink" aria-label="Baqala Home">
+                <img src="assets/logo_full.jpg" alt="Baqala Logo" class="brand-logo">
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#" class="nav-link active">Home</a></li>
+                    <li><a href="#categories" class="nav-link">Categories</a></li>
+                    <li><a href="#offers" class="nav-link">Weekly Offers</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">Our Story</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="https://wa.me/919999999999?text=Hello%20Baqala%20Supermarket!%20I%20have%20an%20inquiry%20about%20your%20products."
+                    target="_blank" class="btn btn-whatsapp-glass btn-pill header-cta" id="headerWhatsappBtn">
+                    <span class="btn-icon-bubble"><i class="fa-brands fa-whatsapp"></i></span>
+                    <span class="btn-label">Chat Us</span>
+                </a>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg"
+                style="background-image: linear-gradient(135deg, rgba(14, 28, 20, 0.94) 0%, rgba(14, 28, 20, 0.72) 60%, rgba(15, 138, 67, 0.35) 100%), url('assets/hero_supermarket.png');">
+            </div>
+
+            <div class="hero-container">
+                <div class="hero-content reveal-on-scroll">
+                    <div class="hero-tagline glass-pill">
+                        <span class="pulsing-emerald-dot"></span>
+                        <span>Premium Select & Wholesale Pricing</span>
+                    </div>
+
+                    <h1 class="hero-title">Your Neighborhood Supermarket, <span class="text-gradient">Reimagined</span>
+                    </h1>
+
+                    <p class="hero-subtitle">Baqala is your modern retail destination for daily groceries, farm-fresh
+                        dairy, artisan bakery, and household homeneeds. Spotless walk-in aisles and instant WhatsApp
+                        orders.</p>
+
+                    <div class="hero-ctas">
+                        <a href="#categories" class="btn btn-primary btn-pill" id="heroExploreBtn">
+                            <span>Explore Aisles</span>
+                            <span class="btn-icon-bubble"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                        <a href="https://wa.me/919999999999?text=Hello%20Baqala%20Supermarket!%20I%20would%20like%20to%20ask%20about%20product%20availability."
+                            target="_blank" class="btn btn-glass btn-pill" id="heroWhatsappBtn">
+                            <span class="btn-icon-bubble-whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+                            <span>Chat on WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-stats reveal-on-scroll">
+                    <div class="stat-card glass-card-dark">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+                        <div class="stat-text">
+                            <h3>Endless Aisles</h3>
+                            <p>Handpicked pantry staples & utilities</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card-dark">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div class="stat-text">
+                            <h3>Verified Brands</h3>
+                            <p>Authentic sourced manufacturers</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card-dark">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-tags"></i>
+                        </div>
+                        <div class="stat-text">
+                            <h3>Wholesale Rates</h3>
+                            <p>Unmatched value on bulk & retail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Value Propositions (Minimalist Bento Layout) -->
+        <section class="values-section" id="values">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="sub-title glass-pill-sub">The Baqala Standard</span>
+                    <h2 class="section-title">Engineered for Thoughtful Living</h2>
+                    <p class="section-desc">Experience a cleaner, transparent, and direct supermarket model built around
+                        customer convenience.</p>
+                </div>
+
+                <div class="values-bento">
+                    <div class="value-card glass-card reveal-on-scroll">
+                        <div class="value-header">
+                            <div class="value-icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+                            <span class="value-badge">Instant</span>
+                        </div>
+                        <h3>Direct WhatsApp Inquiries</h3>
+                        <p>Skip the lines. Instantly message our staff to check live stock availability, request bulk
+                            quotes, or coordinate curbside pickup.</p>
+                    </div>
+
+                    <div class="value-card glass-card reveal-on-scroll">
+                        <div class="value-header">
+                            <div class="value-icon-box"><i class="fa-solid fa-hand-holding-heart"></i></div>
+                            <span class="value-badge">Curated</span>
+                        </div>
+                        <h3>Handpicked Quality Brands</h3>
+                        <p>We selectively curate the finest daily staples, organic pulses, pure dairy products, and
+                            certified home cleaning utilities.</p>
+                    </div>
+
+                    <div class="value-card glass-card reveal-on-scroll">
+                        <div class="value-header">
+                            <div class="value-icon-box"><i class="fa-solid fa-tags"></i></div>
+                            <span class="value-badge">Value</span>
+                        </div>
+                        <h3>Direct Wholesale Savings</h3>
+                        <p>By partnering straight with regional producers and wholesale distributors, we provide
+                            unbeatable rates on daily household essentials.</p>
+                    </div>
+
+                    <div class="value-card glass-card reveal-on-scroll">
+                        <div class="value-header">
+                            <div class="value-icon-box"><i class="fa-solid fa-sparkles"></i></div>
+                            <span class="value-badge">Hygiene</span>
+                        </div>
+                        <h3>Immaculate In-Store Experience</h3>
+                        <p>Wide aisles, clear product categorization, sanitization protocols, and attentive floor staff
+                            create a serene shopping trip.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aisles / Categories Section -->
+        <section class="categories-section" id="categories">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="sub-title glass-pill-sub">Aisles & Departments</span>
+                    <h2 class="section-title">Explore Our Core Departments</h2>
+                    <p class="section-desc">From your morning breakfast table to household hygiene, discover
+                        systematically organized shelves.</p>
+                </div>
+
+                <div class="categories-grid">
+                    <!-- Grocery Essentials -->
+                    <div class="category-card glass-bezel reveal-on-scroll"
+                        style="background-image: url('assets/hero_supermarket.png');">
+                        <div class="category-inner-tray glass-card">
+                            <div class="category-meta">
+                                <span class="category-tag">Pantry & Kitchen</span>
+                                <h3>Grocery Essentials</h3>
+                                <p>Basmati rice, whole pulses, unrefined oils, organic flours & whole spices.</p>
+                            </div>
+                            <a href="https://wa.me/919999999999?text=Hello%20Baqala%20Supermarket!%20Do%20you%20have%20specific%20grocery%20staples%20available%3F"
+                                target="_blank" class="category-action-btn" aria-label="Inquire Grocery Essentials">
+                                <span>Check Availability</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Dairy & Bakery -->
+                    <div class="category-card glass-bezel reveal-on-scroll"
+                        style="background-image: url('assets/bakery_dairy.png');">
+                        <div class="category-inner-tray glass-card">
+                            <div class="category-meta">
+                                <span class="category-tag">Fresh Daily</span>
+                                <h3>Dairy & Bakery</h3>
+                                <p>Farm milk, artisan breads, gourmet cheese, fresh eggs, and baked morning delicacies.
+                                </p>
+                            </div>
+                            <a href="https://wa.me/919999999999?text=Hello%20Baqala%20Supermarket!%20Do%20you%20have%20fresh%20bakery%20and%20dairy%20stock%20today%3F"
+                                target="_blank" class="category-action-btn" aria-label="Inquire Dairy and Bakery">
+                                <span>Check Availability</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Homeneeds & Cleaning -->
+                    <div class="category-card glass-bezel reveal-on-scroll"
+                        style="background-image: url('assets/homeneeds.png');">
+                        <div class="category-inner-tray glass-card">
+                            <div class="category-meta">
+                                <span class="category-tag">Home Utility</span>
+                                <h3>Homeneeds & Care</h3>
+                                <p>Eco-friendly detergents, floor cleaners, kitchen disposables & storage solutions.</p>
+                            </div>
+                            <a href="https://wa.me/919999999999?text=Hello%20Baqala%20Supermarket!%20Do%20you%20have%20laundry%20detergent%20and%20cleaning%20needs%20in%20stock%3F"
+                                target="_blank" class="category-action-btn" aria-label="Inquire Homeneeds">
+                                <span>Check Availability</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Weekly Specials & Countdown (Glass Dark Banner) -->
+        <section class="offers-section" id="offers">
+            <div class="container">
+                <div class="offers-banner glass-card-dark reveal-on-scroll">
+                    <div class="offers-ambient-glow" aria-hidden="true"></div>
+                    <div class="offers-content">
+                        <span class="offer-badge glass-pill-accent"><i class="fa-solid fa-tag"></i> WEEKLY IN-STORE
+                            PROMOTIONS</span>
+                        <h2>Save Up to 40% on Seasonal Groceries</h2>
+                        <p>Take advantage of limited-time discounts on bulk rice sacks, cooking oils, and homeneeds
+                            packages at our physical store counter.</p>
+
+                        <div class="deal-countdown" id="dealCountdown">
+                            <div class="countdown-item glass-tile">
+                                <span class="number" id="days">00</span>
+                                <span class="label">Days</span>
+                            </div>
+                            <div class="countdown-item glass-tile">
+                                <span class="number" id="hours">00</span>
+                                <span class="label">Hours</span>
+                            </div>
+                            <div class="countdown-item glass-tile">
+                                <span class="number" id="minutes">00</span>
+                                <span class="label">Mins</span>
+                            </div>
+                            <div class="countdown-item glass-tile">
+                                <span class="number" id="seconds">00</span>
+                                <span class="label">Secs</span>
+                            </div>
+                        </div>
+
+                        <a href="https://wa.me/919999999999?text=Hello%20Baqala%20Supermarket!%20Can%20you%20share%20the%20weekly%20specials%20brochure%20or%20offer%20details%3F"
+                            target="_blank" class="btn btn-white btn-pill">
+                            <span>Get Weekly Offers Brochure</span>
+                            <span class="btn-icon-bubble"><i class="fa-brands fa-whatsapp"></i></span>
+                        </a>
+                    </div>
+
+                    <div class="offers-visual">
+                        <div class="offers-badge-container glass-badge-ring">
+                            <img src="assets/logo_icon.jpg" alt="Baqala Brand Badge" class="floating-icon-logo">
+                            <div class="glass-seal">
+                                <i class="fa-solid fa-shield-check"></i> Best Price Guarantee
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Store Services Section -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="services-container">
+                    <div class="services-content reveal-on-scroll">
+                        <span class="sub-title glass-pill-sub">Store Capabilities</span>
+                        <h2 class="section-title">Beyond Standard Supermarket Aisles</h2>
+                        <p class="section-desc">We combine retail hospitality with commercial logistics to serve both
+                            households and regional businesses.</p>
+
+                        <div class="services-list">
+                            <div class="service-item glass-row">
+                                <div class="service-icon-box"><i class="fa-solid fa-boxes-stacked"></i></div>
+                                <div>
+                                    <h4>Bulk & Wholesale Purchasing</h4>
+                                    <p>Buying for a restaurant, cafeteria, or community event? Inquire for pallet
+                                        pricing and doorstep freight support.</p>
+                                </div>
+                            </div>
+
+                            <div class="service-item glass-row">
+                                <div class="service-icon-box"><i class="fa-solid fa-bag-shopping"></i></div>
+                                <div>
+                                    <h4>Click, Pack & Curbside Collect</h4>
+                                    <p>Message your grocery checklist over WhatsApp. Our staff neatly boxes your items
+                                        for 5-minute curbside pickup.</p>
+                                </div>
+                            </div>
+
+                            <div class="service-item glass-row">
+                                <div class="service-icon-box"><i class="fa-solid fa-handshake-angle"></i></div>
+                                <div>
+                                    <h4>Institutional & Corporate Supply</h4>
+                                    <p>Recurring monthly pantry orders, tea & coffee supply, and restroom sanitation
+                                        provisions with consolidated invoicing.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services-mock-wrapper reveal-on-scroll">
+                        <div class="services-media-box glass-bezel"
+                            style="background-image: linear-gradient(135deg, rgba(15, 138, 67, 0.4), rgba(14, 28, 20, 0.8)), url('assets/homeneeds.png');">
+                            <div class="service-promo-card glass-card-float">
+                                <div class="promo-header">
+                                    <img src="assets/logo_icon.jpg" alt="Baqala Mini Logo" class="mini-logo">
+                                    <div>
+                                        <h4>Baqala Wholesale</h4>
+                                        <p class="verified-store"><i class="fa-solid fa-circle-check"></i> Verified
+                                            Merchant</p>
+                                    </div>
+                                </div>
+                                <p class="promo-text">&ldquo;Baqala is our preferred destination for bulk pantry staples
+                                    and monthly supplies. Service is swift, and staff is exceptionally helpful!&rdquo;
+                                </p>
+                                <div class="promo-rating-row">
+                                    <div class="star-group">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <span class="rating-value">5.0</span>
+                                    <span class="rating-badge">Customer Favorite</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Story Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-visual reveal-on-scroll">
+                        <div class="about-image-frame glass-bezel">
+                            <img src="assets/hero_supermarket.png" alt="Inside Baqala Store" class="about-img">
+                            <div class="experience-badge glass-card-float">
+                                <span class="number">15+</span>
+                                <span class="label">Years of Community Trust</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content reveal-on-scroll">
+                        <span class="sub-title glass-pill-sub">Our Heritage</span>
+                        <h2 class="section-title">Your Trusted Local Grocer</h2>
+                        <p>Baqala was founded with a singular commitment: delivering uncompromised grocery quality,
+                            genuine wholesale rates, and heartfelt customer care under one pristine roof.</p>
+                        <p>We work directly with audited agricultural farms, state mills, and certified manufacturers.
+                            By eliminating layers of intermediaries, we pass savings straight to your monthly grocery
+                            budget.</p>
+
+                        <div class="about-highlights-grid">
+                            <div class="highlight-card glass-card">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <div>
+                                    <strong>Certified Quality</strong>
+                                    <span>Only approved food grades</span>
+                                </div>
+                            </div>
+                            <div class="highlight-card glass-card">
+                                <i class="fa-solid fa-spray-can-sparkles"></i>
+                                <div>
+                                    <strong>Rigorous Hygiene</strong>
+                                    <span>Daily shelf sanitation</span>
+                                </div>
+                            </div>
+                            <div class="highlight-card glass-card">
+                                <i class="fa-solid fa-truck-ramp-box"></i>
+                                <div>
+                                    <strong>Direct Sourcing</strong>
+                                    <span>Zero middlemen markup</span>
+                                </div>
+                            </div>
+                            <div class="highlight-card glass-card">
+                                <i class="fa-solid fa-comments"></i>
+                                <div>
+                                    <strong>WhatsApp Desk</strong>
+                                    <span>Instant community hotline</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <span class="sub-title glass-pill-sub">Visit & Inquire</span>
+                    <h2 class="section-title">We Are At Your Service</h2>
+                    <p class="section-desc">Reach out for bulk provisioning quotes, shelf inventory queries, or
+                        coordinate order pickups.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-block reveal-on-scroll">
+                        <div class="info-card glass-card">
+                            <div class="info-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h3>Store Address</h3>
+                                <p>Baqala Wholesale Supermarket, Main Retail Aisle, Suite 400, City Center</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-card">
+                            <div class="info-icon-box"><i class="fa-solid fa-clock"></i></div>
+                            <div>
+                                <h3>Opening Hours</h3>
+                                <p>Monday &ndash; Sunday: 07:00 AM &ndash; 11:00 PM (All 7 Days)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-card">
+                            <div class="info-icon-box"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div>
+                                <h3>WhatsApp & Calls</h3>
+                                <p>+91 94901 83864 (Direct Inquiry Line)</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card glass-card">
+                            <div class="info-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h3>Email Desk</h3>
+                                <p>support@baqalasupermarket.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-block glass-card reveal-on-scroll">
+                        <h3>Send a Direct Message</h3>
+                        <p class="form-subtext">Submit your inquiry or bulk list, and our store manager will reply
+                            promptly.</p>
+
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactName">Full Name</label>
+                                    <input type="text" id="contactName" class="glass-input" required
+                                        placeholder="e.g. Tariq Khan">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactEmail">Email Address</label>
+                                    <input type="email" id="contactEmail" class="glass-input" required
+                                        placeholder="name@example.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject / Inquiry Type</label>
+                                <input type="text" id="contactSubject" class="glass-input" required
+                                    placeholder="e.g. Bulk Rice & Oil Procurement">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Inquiry Details</label>
+                                <textarea id="contactMessage" class="glass-input" rows="4" required
+                                    placeholder="Tell us what items or quantities you require..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-pill w-full">
+                                <span>Send Inquiry</span>
+                                <span class="btn-icon-bubble"><i class="fa-solid fa-paper-plane"></i></span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating WhatsApp Widget -->
+    <aside class="whatsapp-float-widget" id="whatsappFloat">
+        <div class="whatsapp-tooltip glass-card">Need help? Chat with Baqala on WhatsApp!</div>
+        <a href="https://wa.me/919999999999?text=Hello%20Baqala%20Supermarket!%20I%20have%20a%20question%20about%20stock%20or%20opening%20hours."
+            target="_blank" class="whatsapp-bubble" aria-label="Chat with Baqala on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span class="pulse-ring"></span>
+        </a>
+    </aside>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top glass-pill-button" id="scrollTopBtn" aria-label="Scroll to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="assets/logo_full.jpg" alt="Baqala Full Logo" class="footer-logo">
+                    <p>Your trusted neighborhood supermarket providing farm-fresh groceries, bakery delicacies, and
+                        household utilities at genuine wholesale value.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-icon-btn"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram" class="social-icon-btn"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter" class="social-icon-btn"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://wa.me/919999999999" aria-label="WhatsApp" class="social-icon-btn"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Aisles</h3>
+                    <ul>
+                        <li><a href="#categories">Daily Grocery Staples</a></li>
+                        <li><a href="#categories">Bakery & Dairy Essentials</a></li>
+                        <li><a href="#categories">Homeneeds & Care</a></li>
+                        <li><a href="#categories">Beverages & Juices</a></li>
+                        <li><a href="#categories">Bulk Pantry Wholesale</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Customer Care</h3>
+                    <ul>
+                        <li><a href="#about">About Our Store</a></li>
+                        <li><a href="#contact">Contact Desk</a></li>
+                        <li><a href="#services">Click & Collect</a></li>
+                        <li><a href="#offers">Weekly Promotions</a></li>
+                        <li><a href="#contact">Store Hours & Directions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h3>Weekly Offers Alert</h3>
+                    <p>Subscribe to receive digital copies of our seasonal promotional brochures.</p>
+                    <form class="newsletter-form glass-card"
+                        onsubmit="event.preventDefault(); alert('Subscribed to Baqala Weekly Specials!'); this.reset();">
+                        <input type="email" placeholder="Enter your email" required
+                            aria-label="Email address for newsletter">
+                        <button type="submit" aria-label="Subscribe" class="newsletter-submit-btn">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Baqala Supermarket & Wholesale Grocers. Crafted with Minimalist Glass UI.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
